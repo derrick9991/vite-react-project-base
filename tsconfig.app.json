@@ -1,0 +1,54 @@
+{
+    "compilerOptions": {
+        /* Projects */
+        "incremental": true,
+        "target": "ES2020",
+        "lib": ["ES2020", "DOM", "DOM.Iterable", "ESNext"],
+        "module": "ESNext",
+        "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.app.tsbuildinfo",
+        "composite": true,
+        "useDefineForClassFields": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+
+        /* Modules */
+        "rootDir": "./src",
+        "baseUrl": "./",
+        "paths": {
+            "@src/*": ["./src/*"],
+            "@assets/*": ["./src/assets/*"],
+            "@environment/*": ["./src/environment/*"]
+        },
+
+        /* JavaScript Support */
+        "allowJs": true,
+        "checkJs": true,
+
+        /* Emit */
+        "declaration": true,
+        "sourceMap": true,
+        "outDir": "./dist/es",
+        "noEmit": true,
+
+        /* Interop Constraints */
+        "isolatedModules": true,
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+
+        /* Bundler mode */
+        "moduleResolution": "bundler",
+        "allowImportingTsExtensions": true,
+        "resolveJsonModule": true,
+        "moduleDetection": "force",
+        "jsx": "react-jsx",
+
+        /* Linting */
+        "strict": true,
+        "noUnusedLocals": false,
+        "noUnusedParameters": false,
+        "noFallthroughCasesInSwitch": true,
+        "skipLibCheck": true
+    },
+    "include": ["src", "src/**/*.json"]
+}

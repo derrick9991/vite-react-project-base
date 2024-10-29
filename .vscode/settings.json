@@ -1,0 +1,9 @@
+{
+    "typescript.preferences.importModuleSpecifier": "shortest",
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": "explicit"
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.trimAutoWhitespace": true
+}

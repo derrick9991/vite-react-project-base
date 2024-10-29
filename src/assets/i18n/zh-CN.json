@@ -1,0 +1,47 @@
+{
+  "otp": {
+    "description": "Check your email for a code",
+    "instruction": "Please enter the code sent to {{email}}",
+    "validityTimeRemaining": "Time Remaining",
+    "didntReceive": "Didn't receive code?",
+    "retryAgain": "Resend in",
+    "resendEmail": "Resend email",
+    "maxiRetryTitle": "Maximum retry attempt reached!",
+    "maxRetryDescription": "Maximum request FIVE retry attempt per day for the same email or phone number"
+  },
+  "errorCode": {
+    "inValidCountryCode": "Invalid country code",
+    "isPossibleLocalOnly": "Phone number is possible local only ",
+    "invalidLength": "Invalid length",
+    "tooShort": "Invalid length, number too short",
+    "tooLong": "Invalid length, number too long"
+  },
+  "text": {
+    "fieldIsRequired": "Field is required",
+    "processing": "Processing"
+  },
+  "button": {
+    "ok": "Ok",
+    "cancel": "Cancel"
+  },
+  "navbar": {
+    "dashboard": "Dashboard",
+    "project": "Project",
+    "calendar": "Calendar",
+    "ticket": "Ticket",
+    "userAccess": "User Access",
+    "banner": "Banner",
+    "notification": "Notifications",
+    "faq": "FAQ",
+    "adminUserAccess": "User Access (Admin)",
+    "setting": "Settings",
+    "category": {
+      "home": "HOME",
+      "projectManagement": "PROJECT MANAGEMENT",
+      "general": "GENERAL"
+    }
+  },
+  "pagination": {
+    "ShowingEntries": "Showing {{pageStartIndex}} to {{pageLastIndex}} of {{pageTotal}} entries"
+  }
+}
